@@ -566,7 +566,7 @@ function navRight()
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="font-weight: bold;"><?php echo $userInfo->friendlyName; ?> <span class="caret"></span></a>
                     <ul class="dropdown-menu">
                         <?php if($userInfo->isAdmin) { ?>
-                        <li><a href="<?php echo $displayedURL; ?>?mode=<?php echo modeString(admin); ?>">Administration</a></li>ftp:
+                        <li><a href="<?php echo $displayedURL; ?>?mode=<?php echo modeString(admin); ?>">Administration</a></li>
                         <?php } ?>
                         <li><a href="<?php echo $displayedURL; ?>?mode=<?php echo modeString(chgpass); ?>">Changer de mot de passe</a></li>
                     </ul>
