@@ -12,11 +12,12 @@ Pour installer Résaplan, vous devez disposer de :
 
 Téléchargez Résaplan puis modifiez le fichier resaplan.conf.php, en particulier 
 la section avec vos identifiants de base de données :
-
+```php
    $db_host     = "";          // Adresse
    $db_username = "";          // Utilisateur
    $db_password = "";          // Mot de passe
    $db_name     = "";          // Nom de la base de données
+```
 
 Si vous le souhaitez, modifiez aussi les mots de passe d'administrateur par 
 défaut.
