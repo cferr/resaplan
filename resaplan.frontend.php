@@ -523,7 +523,7 @@ function tableHeader($day, $rooms)
 
 ?>
 <div class="col-md-6">
-<table cellpadding="0" cellspacing="1" border="1" style="border:thin; text-align:center; vertical-align:top; margin: 10px auto auto auto; font-size:20px; display: inline-block;">
+<table cellpadding="0" cellspacing="1" border="1" style="border:1px solid #000000; text-align:center; vertical-align:top; margin: 10px auto auto auto; font-size:20px; display: inline-block;">
 <tr><td colspan="<?php
     echo count($rooms) + 1; ?>" ><?php
     echo $disp; ?></td></tr>
