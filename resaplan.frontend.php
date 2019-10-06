@@ -354,7 +354,7 @@ function outputDays($saturday, $sunday)
         echo date("d/m/Y", $sunday); ?>
 </p>
 </div>
-<div class="col-sm-4 text-center">
+<div class="text-center">
         <?php if($userOffset > -$retainDelayInWeeks) { ?>
 <a class="btn btn-default noprint" href="<?php echo $displayedURL; ?>?<?php if($mode != view) { ?>mode=<?php echo modeString($mode); ?>&<?php } ?>when=<?php echo $userOffset - 1;?>"><span class="glyphicon glyphicon-step-backward"></span> Précédent</a>
     <?php } ?>
